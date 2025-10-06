@@ -1,0 +1,19 @@
+# secrets.txt
+
+# --- CRITICAL: Hardcoded AWS Access Key ---
+# Pattern: AKIA[A-Z0-9]{16}
+AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE
+AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+
+# --- HIGH: Generic 40-character GitHub PAT/Token ---
+# Pattern: ghp_[a-zA-Z0-9]{36}
+GITHUB_PAT_FAKE=ghp_5F4D7E2B3C1A8F6E9D0B7A4C3F2E1D0B9A8C7B6A
+
+# --- HIGH: Azure Connection String ---
+# Pattern: DefaultEndpointsProtocol=https;...
+AZURE_STORAGE_CONN=DefaultEndpointsProtocol=https;AccountName=mytestaccount;AccountKey=NlXjN52K7pE2zMhJ4T9qR0vU8wY6hG3fA1cZ8bE5dC2aV4xY7zS3rO0lP9mQ8nT;EndpointSuffix=core.windows.net
+
+# --- LOW: Placeholder config data (should NOT flag) ---
+DB_USERNAME=admin_user
+DB_HOST=192.168.1.100
+LOG_LEVEL=DEBUG
