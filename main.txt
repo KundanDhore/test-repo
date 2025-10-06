@@ -3,7 +3,7 @@
 # --- CRITICAL: Hardcoded AWS Access Key ---
 # Pattern: AKIA[A-Z0-9]{16}
 AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE
-AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY///
 
 # --- HIGH: Generic 40-character GitHub PAT/Token ---
 # Pattern: ghp_[a-zA-Z0-9]{36}
