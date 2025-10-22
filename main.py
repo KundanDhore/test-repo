@@ -10,7 +10,7 @@ import asyncio
 
 app = FastAPI()
 
-
+app
 MAX_DIFF_LINES = 500
 MAX_PRS_TO_CHECK = 10
 SENSITIVE_PATHS = ["config", "secrets", "credentials", "keys", ".env", "dockerfile", "ci", ".github/workflows"]
